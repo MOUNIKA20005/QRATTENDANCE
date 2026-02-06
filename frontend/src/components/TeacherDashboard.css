@@ -1,0 +1,170 @@
+/* TeacherDashboard.css */
+
+.teacher-dashboard-container {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  padding: 30px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+}
+
+.teacher-dashboard-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffeb3b;
+}
+
+.input-subject {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.button-group {
+  margin-bottom: 25px;
+}
+
+.button-group button {
+  margin: 0 8px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.btn-generate {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.btn-report {
+  background-color: #ff9800;
+  color: #000;
+}
+
+.button-group button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.qr-section {
+  margin: 20px auto;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 12px;
+  background: #fff; /* white background for QR */
+}
+
+.qr-section p {
+  margin-top: 10px;
+  color: #333; /* dark text for QR label */
+  font-weight: 600;
+}
+
+.message {
+  margin: 15px 0;
+  font-weight: 600;
+  color: #ffeb3b;
+}
+
+.live-count {
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #00e5ff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.live-count.pulse {
+  transform: scale(1.2);
+  color: #4caf50;
+}
+
+.attendance-percentage {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffeb3b;
+  margin-bottom: 15px;
+}
+
+.table-wrapper {
+  margin: 20px auto;
+  max-width: 800px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: rgba(255, 255, 255, 0.15);
+  font-weight: 700;
+}
+
+td {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+tr:hover td {
+  background: rgba(255, 255, 255, 0.18);
+}
+.notifications-panel {
+  margin-top: 20px;
+  background: rgba(0,0,0,0.1);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.notifications-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notifications-panel li {
+  padding: 6px 8px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  background: #f0f0f0;
+  color: #000;
+}
+
+.notifications-panel li.newLeave {
+  background: #ffe0b2; /* light orange */
+}
+
+.notifications-panel li.statusUpdate {
+  background: #c8e6c9; /* light green */
+}
+.notifications-panel li button {
+  margin-left: 8px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notifications-panel li button:hover {
+  opacity: 0.8;
+}
+
+.notifications-panel li.newLeave span {
+  margin-right: 8px;
+}

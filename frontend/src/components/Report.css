@@ -1,0 +1,58 @@
+.report-page {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.report-page h2 {
+  margin-bottom: 20px;
+}
+
+.report-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.report-filters input {
+  padding: 8px;
+  min-width: 160px;
+}
+
+.report-filters button {
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  background: #1976d2;
+  color: white;
+}
+
+.report-filters button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.export-btn {
+  background: #2e7d32;
+}
+
+.error-text {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.report-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.report-table th {
+  background: #f4f4f4;
+}
